@@ -109,9 +109,9 @@ fi
 if [ ! -e "/minecraft/bukkit.yml" ]; then
     cp /scripts/bukkit.yml /minecraft/bukkit.yml
 fi
-if [ ! -e "/minecraft/paper.yml" ]; then
-    cp /scripts/paper.yml /minecraft/paper.yml
-fi
+#if [ ! -e "/minecraft/paper.yml" ]; then
+#    cp /scripts/paper.yml /minecraft/paper.yml
+#fi
 if [ ! -e "/minecraft/spigot.yml" ]; then
     cp /scripts/spigot.yml /minecraft/spigot.yml
 fi
